@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #111118;
+    background-color: #fcefe7;
+    font-family: Switzer, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.page-container{
+    width: auto;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.display-title{
+    letter-spacing: -.65vw;
+    text-transform: uppercase;
+    align-items: flex-start;
+    font-size: 14.8vw;
+    font-weight: 800;
+    line-height: 100%;
+    display: flex;
+}
+h2{
+    margin-top: .5rem;
+    margin-bottom: 1.25rem;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+    letter-spacing: -.05rem;
+    margin-top: .5rem;
+    margin-bottom: 1.25rem;
+    font-size: 2.625rem;
+    font-weight: 800;
+    line-height: 100%;
+}
+
+.margin-bottom-medium{
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+
+div {
+    display: block;
+}
+.button-white-default {
+    background-color: #111118;
+    border-radius: 100vw;
+    padding: 1.25rem 2rem;
+    text-align: center;
+}
+.w-inline-block {
+    max-width: 100%;
+    display: inline-block;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+element.style {
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+.div-relative {
+    position: relative;
+}
+.div-hide {
+    overflow: hidden;
+}
+.button-default-text-style {
+    color: #fff;
+    letter-spacing: -.03rem;
+    font-size: 1.25rem;
+        font-weight: 400;
+    }
+    .button-default-text-style-absolute {
+        color: #fff;
+        letter-spacing: -.03rem;
+        font-size: 1.25rem;
+        font-weight: 300;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+    }
+    .button-wrapper{
+        text-align: center;
+    }
